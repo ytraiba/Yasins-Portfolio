@@ -1,0 +1,105 @@
+.logo-container {
+  
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  svg {
+    width: 135%;
+    height: auto;
+    bottom: 0;
+  }
+
+  .solid-logo {
+    animation: FadeIn 12s;
+    transition-timing-function: linear;
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 135%;
+    z-index: 1;
+  }
+}
+
+
+@media screen and (max-width: 767px){    
+
+  .logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    margin-top: 0;
+  
+    svg {
+      position: absolute;
+      width: 85%;
+      height: auto;
+      top: 0;
+      right: 0;
+      margin-right: 0;
+      left: auto;
+    }
+  
+    .solid-logo {
+      animation: FadeIn 12s;
+      transition-timing-function: linear;
+      position: absolute;
+      top: auto;
+      right:0;
+      bottom: auto;
+      margin: auto;
+      margin-right: 0;
+      width: 85%;
+      z-index: 1;
+    }
+  }
+  
+}
+
+
+
+
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.path{
+  stroke: #ff007f;
+  stroke-width: 10;
+  stroke-dasharray: 26543;
+  stroke-dashoffset: 26543;
+  animation: sign 6s ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes sign {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
