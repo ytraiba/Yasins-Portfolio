@@ -1,14 +1,9 @@
 .stage-cube-cont {
-  width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
   position: absolute;
-  right: 0;
-  overflow: hidden;
+  right: 25vw;
+  top: 25vh;
+  size: 300;
 }
-
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
@@ -83,6 +78,10 @@
 
 
 @media screen and (max-width: 768px) {
+  .cubeSize{
+    width: 100px;
+    height: 100px;
+  }
   .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
