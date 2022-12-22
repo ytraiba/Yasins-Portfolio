@@ -5,6 +5,9 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +44,11 @@ const Contact = () => {
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
+            {/* <a href="https://www.linkedin.com/in/yasin-traiba-1a103822a//" className='linkedIn' target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"  />
+            </a> */}
           </h1>
+            
           <p>
             I am interested in freelance projects and part time work opportunities. Shoot me
             an email at yasintraiba@gmail.com fill out the contact form below. 
