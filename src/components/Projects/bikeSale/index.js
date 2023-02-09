@@ -8,7 +8,8 @@ const BusinessTemplate = () => {
         <h1>Bike Marketplace </h1>
         <p>
         The goal of this project was to create a marketplace that allows users to rent out their bikes to eachother.
-        Users can create an account with an email/password or through Google's user authentication. 
+        Users can create an account with an email/password or through Google's user authentication. Users can even add 
+        an "offer" price to their listing if rented for a week or more. 
          <br/>
          <br/>
           I built this website using React JS and Firebase. I learned how to store users and listings in Firebase's Realtime Database, 

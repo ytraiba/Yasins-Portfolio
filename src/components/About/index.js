@@ -32,19 +32,19 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className='aboutText' align="LEFT">
             I'm an ambitious software engineer looking for an opportunity to
             work with the latest technologies on challenging and diverse projects. I challenge
             myself to continously learn new skills and improve my knowledge. 
-          </p>
-          <p align="LEFT">
+            <br></br>
+            <br></br>
             I am working towards a bachelor's of science in civil engineering while learning as 
             much as possible about software development and the latest technologies. As an engineer I 
             love to create useful and beautiful things. After some experience creating web applications and 
             other software, I realized that programming is my true passion and I would rather build applications 
             than roads or bridges. 
-          </p>
-          <p>
+            <br></br>
+            <br></br>
             Please take a further glance at some of my projects and feel free to contact me with
             any questions. 
           </p>
