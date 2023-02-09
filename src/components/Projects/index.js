@@ -6,6 +6,7 @@ import BusinessTemplate from './businessTemplate'
 import Recipes from './recipes'
 import InfraAutomation from './infraAutomation'
 import InfraMap from './infraMap'
+import BikeSale from './bikeSale'
 import './index.scss'
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -53,6 +54,7 @@ const Projects = () => {
       </div>
 
       <InfraMap />
+      <BikeSale />
       <InfraAutomation />
       <Recipes />
       <PodcastTemplate /> 
