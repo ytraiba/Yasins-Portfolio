@@ -7,13 +7,13 @@ const BusinessTemplate = () => {
       <div className="project-description" data-aos="fade-right">
         <h1>Bike Marketplace </h1>
         <p>
-        The goal of this project was to create a marketplace that allows users to rent out their bikes to eachother.
-        Users can create an account with an email/password or through Google's user authentication. Users can even add 
-        an "offer" price to their listing if rented for a week or more. 
+          The goal of this project was to create a marketplace that allows users to rent out their bikes to eachother.
+          Users can create an account with an email/password or through Google's user authentication. Users can even add 
+          an "offer" price to their listing if rented for a week or more. 
          <br/>
          <br/>
           I built this website using React JS and Firebase. I learned how to store users and listings in Firebase's Realtime Database, 
-          implement Google's geocoding API with react-leaflet, and build a mobile ready website with a beautiful UI. 
+          implement Google's geocoding API with react-leaflet, and build a mobile-ready website with a beautiful UI. 
         <br/>
         <br/>
           <a href='https://github.com/ytraiba/Bike-Sale'>Check out the code on Github</a> or click the image to visit the live site.
