@@ -7,6 +7,7 @@ import Recipes from './recipes'
 import InfraAutomation from './infraAutomation'
 import InfraMap from './infraMap'
 import BikeSale from './bikeSale'
+import GodChat from './godChat'
 import './index.scss'
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -52,9 +53,9 @@ const Projects = () => {
           <br />
           <div className='intro-text'>Scroll to view.</div>
       </div>
-
-      <InfraMap />
       <BikeSale />
+      <InfraMap />
+      <GodChat />
       <InfraAutomation />
       <Recipes />
       <PodcastTemplate /> 
