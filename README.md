@@ -1,15 +1,7 @@
 # Yasin's Portfolio
 
-The goal of this project was to create a personal website in which I could showcase my projects and recieve any requestes for freelance 
-opportunities. 
-
-## Lessons Learned
-
-While working on this project I learned how to:
-
-* Create an easily updated portfolio using React components. 
-* Implement animations using exisiting React libraries and scripted CSS. 
-* Create a mobile ready website that scales to any screen size. 
+The goal of this project was to create a personal website in which I could showcase my projects and receive any requests for freelance 
+opportunities. I implemented animations using existing React libraries and scripted CSS. It's mobile-ready and scales to any screen size. 
 
 ## Dependencies & Libraries
 
