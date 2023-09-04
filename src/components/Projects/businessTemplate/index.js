@@ -7,12 +7,12 @@ const BusinessTemplate = () => {
       <div className="project-description" data-aos="fade-right">
         <h1>Landing Page Template </h1>
         <p>
-         I initially created this website to act as a landing page for a client who wanted to start a business.
+         I initially created this website as a landing page for a client who wanted to start a business.
          Since then, I've simplified the website and made it available for anyone to use as a template for their own business.
          <br/>
          <br/>
-          I built this website using React JS and Tailwind CSS. I developed the website to the specifications 
-          that were requested, while trying to incorporate creative elements of my own. 
+          I built this website using React JS and Tailwind CSS. I developed the website to the required specifications,
+           while trying to incorporate creative elements of my own. 
         <br/>
         <br/>
           <a href='https://github.com/ytraiba/TheAfricanBlock'>Check out the code on Github</a> or click the image to visit the live site.
