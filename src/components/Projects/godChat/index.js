@@ -5,7 +5,7 @@ const GodChat = () => {
   return (
     <div className="project-container" >
       <div className="project-description" data-aos="fade-right">
-        <h1>Chat With A Spiritual Leader</h1>
+        <h1>Chat With A Religious Expert</h1>
         <p>
           This is a chatbot where you can ask any spiritual or religious questions. 
           The chatbot provides a conversational response as well as the source of its information
